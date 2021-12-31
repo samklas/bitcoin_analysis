@@ -131,7 +131,7 @@ document.getElementById('search-button').addEventListener('click', function (){
         alert ('Dates cannot be in the future. Please try again!')
     } else {
         // Generate Coin Gecko API URL
-        const apiURL = `https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=usd&from=${startDateUNIX}&to=${endDateUNIX}`;
+        const apiURL = `https://api.coingecko.com/api/v3/coins/bitcoin/market_chart/range?vs_currency=eur&from=${startDateUNIX}&to=${endDateUNIX}`;
 
         // Using fetch() to get data from the Coin Gecko API
         fetch(apiURL)
