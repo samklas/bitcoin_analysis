@@ -1,6 +1,6 @@
 About The Project
 
-Bitcoin Analysis is a web site to analyze historical data of Bitcoin. Data is provided by CoinGecko API. Following analysis are available at the moment:
+Bitcoin Analysis is a web site to analyze historical data of Bitcoin. The Data is provided by CoinGecko API. Following analysis are available at the moment:
 1.	The longest bearish (downward) trend in a given date range
 2.	The highest volume in a given date range
 3.	The best dates to buy and sell Bitcoin to maximize profit in a given date range
