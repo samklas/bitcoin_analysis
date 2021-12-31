@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Bitcoin Analysis</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Bitcoin Analysis</h1>
+        <p>Bitcoin Analysis is a tool to get the longest bearish trend, the highest volume and the best dates to buy and sell to maximize profit in a given date range. </p>
+        <h4>Date range</h4>
+        <form>
+            <label for="start-date">Start date:</label>
+            <input type="date" id="start-date">
+            <label for="end-date">End date:</label>
+            <input type="date" id="end-date">
+            <button type="button" id="search-button">Search</button>
+        </form>
+        <p class="result" id="bearish-trend"></p>
+        <p class="result" id="highest-volume"></p>
+        <p class="result" id="dates"></p>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
